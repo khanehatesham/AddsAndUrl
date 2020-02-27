@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         viewPager = findViewById(R.id.viewpager)
         tabLayout = findViewById(R.id.tab_layout)
 
-//        toolbar!!.setTitle("Hot")
+        toolbar!!.setTitle("Hot")
         setSupportActionBar(toolbar)
 
         tabLayout!!.addTab(tabLayout!!.newTab().setText("Hot"))
