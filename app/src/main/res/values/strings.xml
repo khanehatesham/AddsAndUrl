@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ads&amp;Url</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message_reload">Something went wrong\n Tap me to retry</string>
+    <string name="message_failed">Something went wrong\n Tap me to retry</string>
+    <string name="message_no_internet_connection">No Internet Connection.\n Please try again</string>
+
+
+</resources>

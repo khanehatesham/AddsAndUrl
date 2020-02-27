@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HotFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avl_loading_dots"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:indicatorColor="@color/actionbar_green"
+        app:indicatorName="BallBeatIndicator" />
+
+    <TextView
+        android:id="@+id/tv_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableTop="@drawable/ic_icn_reload"
+        android:text="@string/message_reload"
+        android:textAlignment="center"
+        android:textColor="@color/actionbar_green"
+        android:textSize="15sp"
+        android:visibility="gone" />
+</RelativeLayout>
